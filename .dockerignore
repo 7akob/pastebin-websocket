@@ -1,0 +1,36 @@
+# Dependency directories
+node_modules/
+npm-debug.log*
+
+# Environment files (security - don't include in image)
+.env.local
+.env.*.local
+
+# Git files
+.git/
+.gitignore
+
+# Test files
+test-client/
+*.test.js
+
+# Development files
+README.md
+docker-compose.yml
+Dockerfile*
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
