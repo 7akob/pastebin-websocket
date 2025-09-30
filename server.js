@@ -26,7 +26,7 @@ wss.on('connection', (ws, req) => {
         console.log('Recived message: ', message);
 
         clients.forEach(client => {
-            ws.send(JSON.stringify({
+            client.send(JSON.stringify({
                 status: 0,
                 msg: String(message)
             }));
